@@ -16,13 +16,13 @@ def money_changing():
         choice = input('Выберите валюту(1/2/3): ').lower()
         if choice == '1':
             money = int(input('Введите вашу сумму в рублях: '))
-            print('Вы получите долларов:' ,dollars(money))
+            print('Вы получите долларов:', dollars(money))
         elif choice == '2':
             money = int(input('Введите вашу сумму в рублях: '))
-            print('Вы получите евро:' ,euros(money))
+            print('Вы получите евро:', euros(money))
         elif choice == '3':
             money = int(input('Введите вашу сумму в рублях: '))
-            print('Вы получите Фунтов стерлингов:' ,pounds(money))
+            print('Вы получите Фунтов стерлингов:', pounds(money))
         elif choice == 'выйти':
             print('Возвращайтесь ещё!')
             break
