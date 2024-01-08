@@ -26,7 +26,7 @@ def money_changing():
         elif choice == 'выйти':
             print('Возвращайтесь ещё!')
             break
-        if choice == 'доллары':
+        elif choice == 'доллары':
             print('1 доллар = 91 рубль.')
         elif choice == 'евро':
             print('1 евро = 100 рублей.')
