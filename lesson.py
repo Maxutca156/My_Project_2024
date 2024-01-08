@@ -1,5 +1,5 @@
 def dollars(rub):
-    return  rub/91
+    return rub/91
 
 def euros(rub):
     return rub/100
