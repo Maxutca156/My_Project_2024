@@ -1,11 +1,14 @@
 def dollars(rub):
-    return rub/91
+    return rub / 91
+
 
 def euros(rub):
-    return rub/100
+    return rub / 100
+
 
 def pounds(rub):
-    return rub/115
+    return rub / 115
+
 
 def money_changing():
     print('Добро пожаловать в обменный пункт, какую валюту вы хотите купить?')
@@ -35,5 +38,5 @@ def money_changing():
         else:
             print('Не пишите бред!')
 
-money_changing()
 
+money_changing()
